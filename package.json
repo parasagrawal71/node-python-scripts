@@ -21,6 +21,7 @@
     "@babel/core": "^7.14.5",
     "@babel/preset-env": "^7.14.5",
     "fs-extra": "^10.0.0",
+    "node-scp": "0.0.14",
     "sizeof": "^1.0.0"
   }
 }

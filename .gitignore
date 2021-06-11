@@ -11,4 +11,5 @@ yarn.lock
 /babel-output
 /output
 /nference
+/config/private_*
 
