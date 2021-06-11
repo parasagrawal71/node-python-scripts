@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "babel-convert": "babel $npm_config_file --out-dir babel-output",
-    "split-path": "node -e 'console.log(process.argv[1].split(\"/\")[process.argv[1].split(\"/\").length - 1])'"
+    "split-path": "node -e 'console.log(process.argv[1].split(\"/\")[process.argv[1].split(\"/\").length - 1])'",
+    "start": "node index.js",
+    "pm2": "pm2 start --name test_app --log-date-format 'DD/MM/YYYY hh:mm:ss A' npm -- start"
   },
   "author": "Paras Agrawal",
   "license": "ISC",
