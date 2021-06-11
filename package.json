@@ -17,6 +17,7 @@
   "dependencies": {
     "@babel/cli": "^7.14.5",
     "@babel/core": "^7.14.5",
-    "@babel/preset-env": "^7.14.5"
+    "@babel/preset-env": "^7.14.5",
+    "sizeof": "^1.0.0"
   }
 }
