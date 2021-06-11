@@ -7,8 +7,7 @@ yarn-error.log*
 package-lock.json
 yarn.lock
 
-
-/babel-output
+/input
 /output
 /nference
 /config/private_*
